@@ -103,6 +103,7 @@ export const dictionary = {
         { id: "pool-1", cat: "Pool", label: "Swimming Pool at Night" },
         { id: "pool-2", cat: "Pool", label: "Pool & Sun Loungers" },
         { id: "pool-3", cat: "Pool", label: "Poolside Terrace" },
+        { id: "pool-4", cat: "Pool", label: "Poolside Lounge at Dusk" },
         { id: "gym-1", cat: "Gym", label: "Fitness Gym" },
         { id: "gym-2", cat: "Gym", label: "Gym Overlooking the Pool" },
         { id: "lounge-1", cat: "Lounge", label: "Indoor Lounge" },
@@ -110,6 +111,7 @@ export const dictionary = {
         { id: "interior-1", cat: "Interior", label: "Reception" },
         { id: "interior-2", cat: "Interior", label: "Staircase" },
         { id: "interior-3", cat: "Interior", label: "Entrance Hallway" },
+        { id: "interior-4", cat: "Interior", label: "Hostel Entrance" },
       ],
     },
     about: {
@@ -259,6 +261,7 @@ export const dictionary = {
         { id: "pool-1", cat: "المسبح", label: "المسبح ليلاً" },
         { id: "pool-2", cat: "المسبح", label: "المسبح وكراسي الاستلقاء" },
         { id: "pool-3", cat: "المسبح", label: "شرفة المسبح" },
+        { id: "pool-4", cat: "المسبح", label: "صالة المسبح عند الغروب" },
         { id: "gym-1", cat: "الصالة الرياضية", label: "الصالة الرياضية" },
         { id: "gym-2", cat: "الصالة الرياضية", label: "الصالة الرياضية المطلة على المسبح" },
         { id: "lounge-1", cat: "صالة الاستراحة", label: "الصالة الداخلية" },
@@ -266,6 +269,7 @@ export const dictionary = {
         { id: "interior-1", cat: "الداخلية", label: "الاستقبال" },
         { id: "interior-2", cat: "الداخلية", label: "الدرج" },
         { id: "interior-3", cat: "الداخلية", label: "ممر المدخل" },
+        { id: "interior-4", cat: "الداخلية", label: "مدخل النُزل" },
       ],
     },
     about: {

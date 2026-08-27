@@ -23,7 +23,7 @@ instead (see `src/components/PlaceholderImage.tsx`):
 
 | Slot id | Status | Used in |
 |---|---|---|
-| `hero-main` | ✅ real photo | Hero background |
+| `hero-main` | ✅ real photo (entrance sign, night) | Hero background |
 | `room-standard` | placeholder | Rooms section |
 | `room-deluxe` | placeholder | Rooms section |
 | `room-family` | placeholder | Rooms section |
@@ -32,6 +32,7 @@ instead (see `src/components/PlaceholderImage.tsx`):
 | `pool-1` | ✅ real photo | Facilities + gallery |
 | `pool-2` | ✅ real photo | Gallery |
 | `pool-3` | ✅ real photo | Gallery |
+| `pool-4` | ✅ real photo | Gallery |
 | `gym-1` | ✅ real photo | Facilities + gallery |
 | `gym-2` | ✅ real photo | Gallery |
 | `lounge-1` | ✅ real photo | Facilities + gallery |
@@ -40,6 +41,7 @@ instead (see `src/components/PlaceholderImage.tsx`):
 | `interior-1` | ✅ real photo (reception) | About + gallery |
 | `interior-2` | ✅ real photo (staircase) | Gallery |
 | `interior-3` | ✅ real photo (entrance hallway) | Gallery |
+| `interior-4` | ✅ real photo (entrance sign, night) | Gallery |
 
 Recommended sizes for any new photo: hero ~1920x1080px, room/gallery
 photos ~1200x900px, exported at good quality (Next.js optimizes and

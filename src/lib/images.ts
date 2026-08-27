@@ -10,6 +10,7 @@ export const realImageSlots = new Set([
   "pool-1",
   "pool-2",
   "pool-3",
+  "pool-4",
   "gym-1",
   "gym-2",
   "room-dorm",
@@ -17,6 +18,7 @@ export const realImageSlots = new Set([
   "interior-1",
   "interior-2",
   "interior-3",
+  "interior-4",
 ]);
 
 export function hasRealImage(id: string) {
