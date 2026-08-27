@@ -21,12 +21,14 @@ Open [http://localhost:3000](http://localhost:3000).
    are required.
 4. Click **Deploy**.
 
-## Adding your real hostel photos
+## Hostel photos
 
-The site ships with elegant gold/charcoal placeholder images in every photo
-slot (rooms, pool, gym, lounge, gallery, hero). See
-[`public/images/README.md`](public/images/README.md) for the exact filenames
-to drop in to replace them with your real photos.
+13 real hostel photos (pool, gym, lounges, reception, staircase, dormitory
+beds) are already wired in across the hero, facilities, rooms and gallery
+sections. The three private-room types and the workspace slot still show an
+elegant gold/charcoal placeholder since no photo was provided for them yet.
+See [`public/images/README.md`](public/images/README.md) for the exact
+filenames to add real photos for those, or to replace any existing one.
 
 ## Editing content
 
