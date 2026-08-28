@@ -1,9 +1,12 @@
+import Image from "next/image";
 import { ImageIcon } from "lucide-react";
+import { hasRealImage } from "@/lib/images";
 
 /**
- * Real hostel photos were not provided to this build. Each slot below reads
- * from /public/images/<id>.jpg when present (see public/images/README.md).
- * Until then it renders an elegant branded placeholder so no section looks empty.
+ * Renders the real photo at /public/images/<id>.jpg when one has been added
+ * (see public/images/README.md for the full slot list). Falls back to an
+ * elegant branded placeholder for any slot without a photo yet, so no
+ * section ever looks empty.
  */
 export default function PlaceholderImage({
   id,
@@ -14,6 +17,20 @@ export default function PlaceholderImage({
   label: string;
   className?: string;
 }) {
+  if (hasRealImage(id)) {
+    return (
+      <div className={`relative overflow-hidden bg-charcoal-light ${className}`} data-image-slot={id}>
+        <Image
+          src={`/images/${id}.jpg`}
+          alt={label}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       className={`relative overflow-hidden bg-charcoal-light ${className}`}
