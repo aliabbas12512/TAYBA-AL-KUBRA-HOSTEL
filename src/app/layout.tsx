@@ -32,7 +32,7 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://tayba-alkubra-hostel.vercel.app"),
+  metadataBase: new URL("https://taibah-co.sa"),
   title: "Tayba Al Kubra Hostel | نُزل طيبة الكبرى — Luxury Hostel in Riyadh",
   description:
     "Tayba Al Kubra Hostel offers a clean, comfortable and premium accommodation experience in Riyadh — free WiFi, swimming pool, gym, lounge and workspace, available 24/7. نزل فاخر ومريح في الرياض.",
@@ -48,9 +48,13 @@ export const metadata: Metadata = {
     "أفضل نزل في الرياض",
     "سكن مريح في الرياض",
   ],
+  alternates: {
+    canonical: "https://taibah-co.sa",
+  },
   openGraph: {
     title: "Tayba Al Kubra Hostel | نُزل طيبة الكبرى",
     description: "Your comfortable, premium stay in Riyadh — available 24/7.",
+    url: "https://taibah-co.sa",
     locale: "en_SA",
     alternateLocale: "ar_SA",
     type: "website",
@@ -72,6 +76,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       addressCountry: "SA",
     },
     telephone: "+966590925707",
+    email: "LuxHostel@taibah-co.sa",
+    url: "https://taibah-co.sa",
     priceRange: "$$",
   };
 
