@@ -8,6 +8,7 @@ import {
   Armchair,
   Laptop,
   Snowflake,
+  Utensils,
   LucideProps,
 } from "lucide-react";
 
@@ -21,6 +22,7 @@ const map = {
   armchair: Armchair,
   laptop: Laptop,
   snowflake: Snowflake,
+  utensils: Utensils,
 };
 
 export type IconName = keyof typeof map;

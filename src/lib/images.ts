@@ -20,6 +20,7 @@ export const realImageSlots = new Set([
   "room-family",
   "room-dorm",
   "workspace-1",
+  "kitchen-1",
   "interior-1",
   "interior-2",
   "interior-3",
