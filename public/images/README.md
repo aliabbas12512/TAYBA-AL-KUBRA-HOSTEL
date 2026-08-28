@@ -1,11 +1,12 @@
 # Hostel photos
 
 Real photos are already wired in for most sections (pool, gym, lounges,
-reception, staircase, dormitory beds, a deluxe room, workspace — 16 photos
-in total). Two slots still have no photo yet and render an elegant
-gold/charcoal placeholder instead (see `src/components/PlaceholderImage.tsx`):
+reception, staircase, dormitory beds, a deluxe room, a standard room,
+workspace — 17 photos in total). One slot still has no photo yet and
+renders an elegant gold/charcoal placeholder instead (see
+`src/components/PlaceholderImage.tsx`):
 
-- `room-standard`, `room-family` — no photos of these room types yet
+- `room-family` — no photo of this room type yet
 
 ## Adding or replacing a photo
 
@@ -23,7 +24,7 @@ gold/charcoal placeholder instead (see `src/components/PlaceholderImage.tsx`):
 | Slot id | Status | Used in |
 |---|---|---|
 | `hero-main` | ✅ real photo (entrance sign, night) | Hero background |
-| `room-standard` | placeholder | Rooms section |
+| `room-standard` | ✅ real photo | Rooms section + gallery |
 | `room-deluxe` | ✅ real photo | Rooms section + gallery |
 | `room-family` | placeholder | Rooms section |
 | `room-dorm` | ✅ real photo | Rooms section + gallery |
