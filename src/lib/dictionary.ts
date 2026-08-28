@@ -64,6 +64,20 @@ export const dictionary = {
           image: "room-deluxe",
         },
         {
+          name: "Queen Room",
+          desc: "A bright, elegant room centered around a plush queen bed, ideal for couples or solo travelers wanting extra space.",
+          amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Daily Housekeeping"],
+          guests: "2 Guests",
+          image: "room-queen",
+        },
+        {
+          name: "King Suite",
+          desc: "Our most spacious private room, built around a premium king bed with upgraded finishes for a truly restful stay.",
+          amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Work Desk"],
+          guests: "2 Guests",
+          image: "room-king",
+        },
+        {
           name: "Family Suite",
           desc: "A generous suite designed for families or groups, combining privacy with shared comfort.",
           amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Lounge Access"],
@@ -100,6 +114,9 @@ export const dictionary = {
       items: [
         { id: "room-standard", cat: "Rooms", label: "Standard Single Room" },
         { id: "room-deluxe", cat: "Rooms", label: "Deluxe Double Room" },
+        { id: "room-queen", cat: "Rooms", label: "Queen Room" },
+        { id: "room-family", cat: "Rooms", label: "Family Suite" },
+        { id: "room-family-2", cat: "Rooms", label: "Family Suite Beds" },
         { id: "room-dorm", cat: "Rooms", label: "Dormitory Pod Beds" },
         { id: "room-dorm-2", cat: "Rooms", label: "Dormitory Room" },
         { id: "pool-1", cat: "Pool", label: "Swimming Pool at Night" },
@@ -141,7 +158,7 @@ export const dictionary = {
       },
       submit: "Request Free Booking",
       whatsappDirect: "Book Directly on WhatsApp",
-      roomOptions: ["Standard Single Room", "Deluxe Double Room", "Family Suite", "Shared Dormitory Bed"],
+      roomOptions: ["Standard Single Room", "Deluxe Double Room", "Queen Room", "King Suite", "Family Suite", "Shared Dormitory Bed"],
     },
     contact: {
       title: "Contact Us",
@@ -225,6 +242,20 @@ export const dictionary = {
           image: "room-deluxe",
         },
         {
+          name: "غرفة كوين",
+          desc: "غرفة مشرقة وأنيقة تتوسطها سرير كوين مريح، مثالية للأزواج أو المسافر الفردي الباحث عن مساحة إضافية.",
+          amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "تنظيف يومي"],
+          guests: "نزيلان",
+          image: "room-queen",
+        },
+        {
+          name: "جناح كينج",
+          desc: "أوسع غرفنا الخاصة، بسرير كينج فاخر وتشطيبات مطورة لإقامة هادئة حقاً.",
+          amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "مكتب عمل"],
+          guests: "نزيلان",
+          image: "room-king",
+        },
+        {
           name: "جناح عائلي",
           desc: "جناح واسع مصمم للعائلات أو المجموعات، يجمع بين الخصوصية والراحة المشتركة.",
           amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "دخول الصالة"],
@@ -261,6 +292,9 @@ export const dictionary = {
       items: [
         { id: "room-standard", cat: "الغرف", label: "غرفة مفردة قياسية" },
         { id: "room-deluxe", cat: "الغرف", label: "غرفة مزدوجة ديلوكس" },
+        { id: "room-queen", cat: "الغرف", label: "غرفة كوين" },
+        { id: "room-family", cat: "الغرف", label: "الجناح العائلي" },
+        { id: "room-family-2", cat: "الغرف", label: "أسرّة الجناح العائلي" },
         { id: "room-dorm", cat: "الغرف", label: "أسرّة الغرفة المشتركة" },
         { id: "room-dorm-2", cat: "الغرف", label: "الغرفة المشتركة" },
         { id: "pool-1", cat: "المسبح", label: "المسبح ليلاً" },
@@ -302,7 +336,7 @@ export const dictionary = {
       },
       submit: "اطلب حجزاً مجانياً",
       whatsappDirect: "احجز مباشرة عبر واتساب",
-      roomOptions: ["غرفة مفردة قياسية", "غرفة مزدوجة ديلوكس", "جناح عائلي", "سرير في غرفة مشتركة"],
+      roomOptions: ["غرفة مفردة قياسية", "غرفة مزدوجة ديلوكس", "غرفة كوين", "جناح كينج", "جناح عائلي", "سرير في غرفة مشتركة"],
     },
     contact: {
       title: "تواصل معنا",
