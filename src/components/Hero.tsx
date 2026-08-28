@@ -21,8 +21,7 @@ export default function Hero() {
           <source src="/videos/hero.webm" type="video/webm" />
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/70 to-charcoal/40" />
-        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-transparent to-charcoal/60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/10 to-transparent" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pt-24 sm:px-6 lg:px-8">
@@ -32,7 +31,7 @@ export default function Hero() {
           </span>
 
           <h1
-            className={`mt-6 animate-fadeUp text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl ${
+            className={`mt-6 animate-fadeUp text-4xl font-bold leading-tight text-white [text-shadow:0_2px_16px_rgba(0,0,0,0.75)] sm:text-5xl md:text-6xl ${
               lang === "ar" ? "font-arDisplay" : "font-display"
             }`}
             style={{ animationDelay: "120ms", animationFillMode: "backwards" }}
@@ -41,7 +40,7 @@ export default function Hero() {
           </h1>
 
           <p
-            className="mx-auto mt-5 max-w-xl animate-fadeUp font-body text-base text-beige/90 sm:text-lg"
+            className="mx-auto mt-5 max-w-xl animate-fadeUp font-body text-base text-beige/90 [text-shadow:0_2px_10px_rgba(0,0,0,0.75)] sm:text-lg"
             style={{ animationDelay: "240ms", animationFillMode: "backwards" }}
           >
             {t.hero.subheadline}
