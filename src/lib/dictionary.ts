@@ -98,6 +98,7 @@ export const dictionary = {
       subtitle: "A glimpse into life at Tayba Al Kubra Hostel",
       categories: ["All", "Rooms", "Pool", "Gym", "Lounge", "Workspace", "Interior"],
       items: [
+        { id: "room-standard", cat: "Rooms", label: "Standard Single Room" },
         { id: "room-deluxe", cat: "Rooms", label: "Deluxe Double Room" },
         { id: "room-dorm", cat: "Rooms", label: "Dormitory Pod Beds" },
         { id: "room-dorm-2", cat: "Rooms", label: "Dormitory Room" },
@@ -258,6 +259,7 @@ export const dictionary = {
       subtitle: "لمحة من الحياة في نُزل طيبة الكبرى",
       categories: ["الكل", "الغرف", "المسبح", "الصالة الرياضية", "صالة الاستراحة", "مساحة العمل", "الداخلية"],
       items: [
+        { id: "room-standard", cat: "الغرف", label: "غرفة مفردة قياسية" },
         { id: "room-deluxe", cat: "الغرف", label: "غرفة مزدوجة ديلوكس" },
         { id: "room-dorm", cat: "الغرف", label: "أسرّة الغرفة المشتركة" },
         { id: "room-dorm-2", cat: "الغرف", label: "الغرفة المشتركة" },
