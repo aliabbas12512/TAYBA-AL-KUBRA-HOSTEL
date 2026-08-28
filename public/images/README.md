@@ -1,9 +1,9 @@
 # Hostel photos
 
 Real photos are already wired in for every section and every room type
-(pool, gym, lounges, reception, staircase, dormitory beds, standard,
-deluxe, queen, king, and family rooms, workspace — 21 photos in
-total). No placeholders remain; see `src/components/PlaceholderImage.tsx`
+(pool, gym, lounges, reception, staircase, kitchen, dormitory beds,
+standard, deluxe, queen, king, and family rooms, workspace — 22 photos
+in total). No placeholders remain; see `src/components/PlaceholderImage.tsx`
 if a future room type or section ever needs one again.
 
 ## Adding or replacing a photo
@@ -27,9 +27,7 @@ if a future room type or section ever needs one again.
 | `room-queen` | ✅ real photo | Rooms section + gallery |
 | `room-king` | ✅ real photo | Rooms section + gallery |
 | `room-family` | ✅ real photo | Rooms section + gallery |
-| `room-family-2` | ✅ real photo | Gallery |
 | `room-dorm` | ✅ real photo | Rooms section + gallery |
-| `room-dorm-2` | ✅ real photo | Gallery |
 | `pool-1` | ✅ real photo | Facilities + gallery |
 | `pool-2` | ✅ real photo | Gallery |
 | `pool-3` | ✅ real photo | Gallery |
@@ -39,6 +37,7 @@ if a future room type or section ever needs one again.
 | `lounge-1` | ✅ real photo | Facilities + gallery |
 | `lounge-2` | ✅ real photo | Gallery |
 | `workspace-1` | ✅ real photo | Facilities + gallery |
+| `kitchen-1` | ✅ real photo | Gallery |
 | `interior-1` | ✅ real photo (reception) | About + gallery |
 | `interior-2` | ✅ real photo (staircase) | Gallery |
 | `interior-3` | ✅ real photo (entrance hallway) | Gallery |
