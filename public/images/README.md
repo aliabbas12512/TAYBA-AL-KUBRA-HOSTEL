@@ -27,9 +27,7 @@ if a future room type or section ever needs one again.
 | `room-queen` | ✅ real photo | Rooms section + gallery |
 | `room-king` | ✅ real photo | Rooms section + gallery |
 | `room-family` | ✅ real photo | Rooms section + gallery |
-| `room-family-2` | ✅ real photo | Gallery |
 | `room-dorm` | ✅ real photo | Rooms section + gallery |
-| `room-dorm-2` | ✅ real photo | Gallery |
 | `pool-1` | ✅ real photo | Facilities + gallery |
 | `pool-2` | ✅ real photo | Gallery |
 | `pool-3` | ✅ real photo | Gallery |
