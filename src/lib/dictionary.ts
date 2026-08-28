@@ -96,8 +96,9 @@ export const dictionary = {
     gallery: {
       title: "Photo Gallery",
       subtitle: "A glimpse into life at Tayba Al Kubra Hostel",
-      categories: ["All", "Rooms", "Pool", "Gym", "Lounge", "Interior"],
+      categories: ["All", "Rooms", "Pool", "Gym", "Lounge", "Workspace", "Interior"],
       items: [
+        { id: "room-deluxe", cat: "Rooms", label: "Deluxe Double Room" },
         { id: "room-dorm", cat: "Rooms", label: "Dormitory Pod Beds" },
         { id: "room-dorm-2", cat: "Rooms", label: "Dormitory Room" },
         { id: "pool-1", cat: "Pool", label: "Swimming Pool at Night" },
@@ -108,6 +109,7 @@ export const dictionary = {
         { id: "gym-2", cat: "Gym", label: "Gym Overlooking the Pool" },
         { id: "lounge-1", cat: "Lounge", label: "Indoor Lounge" },
         { id: "lounge-2", cat: "Lounge", label: "Outdoor Lounge" },
+        { id: "workspace-1", cat: "Workspace", label: "Workspace & Bar Nook" },
         { id: "interior-1", cat: "Interior", label: "Reception" },
         { id: "interior-2", cat: "Interior", label: "Staircase" },
         { id: "interior-3", cat: "Interior", label: "Entrance Hallway" },
@@ -254,8 +256,9 @@ export const dictionary = {
     gallery: {
       title: "معرض الصور",
       subtitle: "لمحة من الحياة في نُزل طيبة الكبرى",
-      categories: ["الكل", "الغرف", "المسبح", "الصالة الرياضية", "صالة الاستراحة", "الداخلية"],
+      categories: ["الكل", "الغرف", "المسبح", "الصالة الرياضية", "صالة الاستراحة", "مساحة العمل", "الداخلية"],
       items: [
+        { id: "room-deluxe", cat: "الغرف", label: "غرفة مزدوجة ديلوكس" },
         { id: "room-dorm", cat: "الغرف", label: "أسرّة الغرفة المشتركة" },
         { id: "room-dorm-2", cat: "الغرف", label: "الغرفة المشتركة" },
         { id: "pool-1", cat: "المسبح", label: "المسبح ليلاً" },
@@ -266,6 +269,7 @@ export const dictionary = {
         { id: "gym-2", cat: "الصالة الرياضية", label: "الصالة الرياضية المطلة على المسبح" },
         { id: "lounge-1", cat: "صالة الاستراحة", label: "الصالة الداخلية" },
         { id: "lounge-2", cat: "صالة الاستراحة", label: "الصالة الخارجية" },
+        { id: "workspace-1", cat: "مساحة العمل", label: "مساحة العمل وركن البار" },
         { id: "interior-1", cat: "الداخلية", label: "الاستقبال" },
         { id: "interior-2", cat: "الداخلية", label: "الدرج" },
         { id: "interior-3", cat: "الداخلية", label: "ممر المدخل" },
