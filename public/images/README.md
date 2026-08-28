@@ -1,12 +1,10 @@
 # Hostel photos
 
-Real photos are already wired in for most sections (pool, gym, lounges,
-reception, staircase, dormitory beds, a deluxe room, a standard room, a
-queen room, a family suite, workspace — 20 photos in total). One room
-type still has no photo yet and renders an elegant gold/charcoal
-placeholder instead (see `src/components/PlaceholderImage.tsx`):
-
-- `room-king` — no photo of the King Suite yet
+Real photos are already wired in for every section and every room type
+(pool, gym, lounges, reception, staircase, dormitory beds, standard,
+deluxe, queen, king, and family rooms, workspace — 21 photos in
+total). No placeholders remain; see `src/components/PlaceholderImage.tsx`
+if a future room type or section ever needs one again.
 
 ## Adding or replacing a photo
 
@@ -27,7 +25,7 @@ placeholder instead (see `src/components/PlaceholderImage.tsx`):
 | `room-standard` | ✅ real photo | Rooms section + gallery |
 | `room-deluxe` | ✅ real photo | Rooms section + gallery |
 | `room-queen` | ✅ real photo | Rooms section + gallery |
-| `room-king` | placeholder | Rooms section |
+| `room-king` | ✅ real photo | Rooms section + gallery |
 | `room-family` | ✅ real photo | Rooms section + gallery |
 | `room-family-2` | ✅ real photo | Gallery |
 | `room-dorm` | ✅ real photo | Rooms section + gallery |
