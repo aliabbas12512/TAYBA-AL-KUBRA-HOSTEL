@@ -3,7 +3,6 @@
 import { MessageCircle, ChevronDown } from "lucide-react";
 import { useLanguage } from "@/lib/LanguageContext";
 import { contactInfo, waLink } from "@/lib/dictionary";
-import PlaceholderImage from "./PlaceholderImage";
 
 export default function Hero() {
   const { t, lang } = useLanguage();
@@ -11,7 +10,17 @@ export default function Hero() {
   return (
     <section id="home" className="relative flex min-h-[92vh] items-center overflow-hidden bg-charcoal">
       <div className="absolute inset-0">
-        <PlaceholderImage id="hero-main" label={lang === "ar" ? "الصورة الرئيسية للنُزل" : "Hostel Hero Photo"} className="h-full w-full" />
+        <video
+          className="h-full w-full object-cover"
+          poster="/images/hero-main.jpg"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/videos/hero.webm" type="video/webm" />
+          <source src="/videos/hero.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/70 to-charcoal/40" />
         <div className="absolute inset-0 bg-gradient-to-r from-charcoal/60 via-transparent to-charcoal/60" />
       </div>
