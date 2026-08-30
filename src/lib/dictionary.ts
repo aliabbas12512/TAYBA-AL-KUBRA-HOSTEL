@@ -5,9 +5,9 @@ export const dictionary = {
     dir: "ltr",
     htmlLang: "en",
     meta: {
-      title: "Tayba Al Kubra Hostel - Best Budget Hostel Riyadh, Beds from 75 SAR",
+      title: "Tayba Al Kubra Hostel - Best Budget Hostel Riyadh, Beds from 110 SAR",
       description:
-        "Best budget hostel in central Riyadh — beds from 75 SAR/night, single rooms 110 SAR, double rooms 200 SAR. Free WiFi, pool, gym & kitchen included. Central King Fahd Road location. Book now on WhatsApp!",
+        "Best budget hostel in central Riyadh — beds from 110 SAR/night, single rooms 150 SAR, double rooms 200 SAR. Free WiFi, pool, gym & kitchen included. Central King Fahd Road location. Book now on WhatsApp!",
     },
     nav: {
       home: "Home",
@@ -22,17 +22,17 @@ export const dictionary = {
     hero: {
       eyebrow: "Riyadh, Saudi Arabia",
       headline: "Riyadh's Best Value Hostel",
-      subheadline: "Beds from 75 SAR • Singles 110 SAR • Doubles 200 SAR — Free WiFi, Pool, Gym & Kitchen, Available 24/7",
-      priceBadge: "Beds From 75 SAR/Night",
+      subheadline: "Beds from 110 SAR • Singles 150 SAR • Doubles 200 SAR — Free WiFi, Pool, Gym & Kitchen, Available 24/7",
+      priceBadge: "Beds From 110 SAR/Night",
       ctaWhatsapp: "WhatsApp Inquiry",
-      ctaBook: "Book Now – From 75 SAR",
+      ctaBook: "Book Now – From 110 SAR",
       scroll: "Scroll",
     },
     why: {
       title: "Why Tayba Al Kubra?",
       subtitle: "Best prices in central Riyadh, with everything included",
       items: [
-        { icon: "clock", title: "Best Prices in Central Riyadh", text: "Beds from 75 SAR — up to 50% cheaper than nearby hostels." },
+        { icon: "clock", title: "Best Prices in Central Riyadh", text: "Beds from 110 SAR — up to 50% cheaper than nearby hostels." },
         { icon: "sparkles", title: "Everything Included", text: "Free WiFi, pool, gym, kitchen and lounge — no hidden fees." },
         { icon: "sofa", title: "Clean & Professional", text: "Daily housekeeping and a hygienic, well-maintained environment." },
         { icon: "wifi", title: "Central Location", text: "On King Fahd Road, walking distance to everything." },
@@ -52,7 +52,7 @@ export const dictionary = {
       list: [
         {
           name: "Shared Dormitory Bed",
-          price: "75 SAR/night",
+          price: "110 SAR/night",
           tag: "Cheapest in Riyadh",
           desc: "The most affordable stay in Riyadh — perfect for backpackers, students and travelers watching their budget.",
           amenities: ["Free WiFi", "Personal Locker", "Shared Bathroom", "Air Conditioning"],
@@ -61,7 +61,7 @@ export const dictionary = {
         },
         {
           name: "Standard Single Room",
-          price: "110 SAR/night",
+          price: "150 SAR/night",
           tag: "Best value private room",
           desc: "The best-value private room in Riyadh — a cozy space with a comfortable bed and clean, modern finishes.",
           amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Daily Housekeeping"],
@@ -78,7 +78,7 @@ export const dictionary = {
         },
         {
           name: "Queen Room",
-          price: "180 SAR/night",
+          price: "300 SAR/night",
           desc: "A bright, comfortable room centered around a queen bed — great value for couples or solo travelers wanting extra space.",
           amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Daily Housekeeping"],
           guests: "2 Guests",
@@ -146,9 +146,9 @@ export const dictionary = {
     },
     about: {
       title: "About Tayba Al Kubra Hostel",
-      text: "Tayba Al Kubra is Riyadh's best-value hostel, offering clean, comfortable accommodation in the heart of the city with beds from just 75 SAR. Whether you're a budget backpacker, student, business traveler, event attendee or just looking for cheap accommodation in Riyadh, you get best prices, a central King Fahd Road location, and every amenity included — free WiFi, pool, gym and kitchen — with no hidden fees. Special rates are available for corporate groups and events.",
+      text: "Tayba Al Kubra is Riyadh's best-value hostel, offering clean, comfortable accommodation in the heart of the city with beds from just 110 SAR. Whether you're a budget backpacker, student, business traveler, event attendee or just looking for cheap accommodation in Riyadh, you get best prices, a central King Fahd Road location, and every amenity included — free WiFi, pool, gym and kitchen — with no hidden fees. Special rates are available for corporate groups and events.",
       stats: [
-        { value: "75 SAR", label: "Beds From" },
+        { value: "110 SAR", label: "Beds From" },
         { value: "24/7", label: "Service Available" },
         { value: "100%", label: "Clean & Hygienic" },
       ],
@@ -169,10 +169,10 @@ export const dictionary = {
       submit: "Request Free Booking",
       whatsappDirect: "Book Directly on WhatsApp",
       roomOptions: [
-        "Shared Dormitory Bed (75 SAR/night)",
-        "Standard Single Room (110 SAR/night)",
+        "Shared Dormitory Bed (110 SAR/night)",
+        "Standard Single Room (150 SAR/night)",
         "Deluxe Double Room (200 SAR/night)",
-        "Queen Room (180 SAR/night)",
+        "Queen Room (300 SAR/night)",
         "King Suite (180 SAR/night)",
         "Family Suite (250 SAR/night)",
       ],
@@ -202,9 +202,9 @@ export const dictionary = {
     dir: "rtl",
     htmlLang: "ar",
     meta: {
-      title: "نُزل طيبة الكبرى - أفضل نزل اقتصادي في الرياض، أسرّة من 75 ريال",
+      title: "نُزل طيبة الكبرى - أفضل نزل اقتصادي في الرياض، أسرّة من 110 ريال",
       description:
-        "أفضل نزل اقتصادي في وسط الرياض - أسرّة من 75 ريال لليلة، غرف مفردة 110 ريال، غرف مزدوجة 200 ريال. واي فاي مجاني، مسبح، صالة رياضية ومطبخ مشترك. موقع مركزي على طريق الملك فهد. احجز الآن!",
+        "أفضل نزل اقتصادي في وسط الرياض - أسرّة من 110 ريال لليلة، غرف مفردة 150 ريال، غرف مزدوجة 200 ريال. واي فاي مجاني، مسبح، صالة رياضية ومطبخ مشترك. موقع مركزي على طريق الملك فهد. احجز الآن!",
     },
     nav: {
       home: "الرئيسية",
@@ -219,17 +219,17 @@ export const dictionary = {
     hero: {
       eyebrow: "الرياض، المملكة العربية السعودية",
       headline: "أفضل أسعار في الرياض",
-      subheadline: "أسرّة من 75 ريال • غرف مفردة 110 ريال • غرف مزدوجة 200 ريال — واي فاي مجاني، مسبح، صالة رياضية ومطبخ، على مدار الساعة",
-      priceBadge: "أسرّة من 75 ريال لليلة",
+      subheadline: "أسرّة من 110 ريال • غرف مفردة 150 ريال • غرف مزدوجة 200 ريال — واي فاي مجاني، مسبح، صالة رياضية ومطبخ، على مدار الساعة",
+      priceBadge: "أسرّة من 110 ريال لليلة",
       ctaWhatsapp: "استفسار عبر واتساب",
-      ctaBook: "احجز الآن - من 75 ريال",
+      ctaBook: "احجز الآن - من 110 ريال",
       scroll: "مرر للأسفل",
     },
     why: {
       title: "لماذا نُزل طيبة الكبرى؟",
       subtitle: "أفضل الأسعار في وسط الرياض، مع كل شيء مشمول",
       items: [
-        { icon: "clock", title: "أفضل الأسعار في وسط الرياض", text: "أسرّة من 75 ريال - أرخص بنسبة تصل إلى 50% من النزل المجاورة." },
+        { icon: "clock", title: "أفضل الأسعار في وسط الرياض", text: "أسرّة من 110 ريال - أرخص بنسبة تصل إلى 50% من النزل المجاورة." },
         { icon: "sparkles", title: "كل شيء مشمول", text: "واي فاي مجاني، مسبح، صالة رياضية، مطبخ وصالة استراحة - بدون رسوم إضافية." },
         { icon: "sofa", title: "نظافة واحترافية", text: "تنظيف يومي وبيئة صحية معتنى بها باستمرار." },
         { icon: "wifi", title: "موقع مركزي", text: "على طريق الملك فهد، على مسافة قريبة من كل شيء." },
@@ -249,7 +249,7 @@ export const dictionary = {
       list: [
         {
           name: "سرير في غرفة مشتركة",
-          price: "75 ريال / الليلة",
+          price: "110 ريال / الليلة",
           tag: "الأرخص في الرياض",
           desc: "أرخص إقامة في الرياض - مثالية للمسافرين بميزانية محدودة والطلاب والمسافرين عموماً.",
           amenities: ["واي فاي مجاني", "خزانة شخصية", "حمام مشترك", "تكييف هواء"],
@@ -258,7 +258,7 @@ export const dictionary = {
         },
         {
           name: "غرفة مفردة قياسية",
-          price: "110 ريال / الليلة",
+          price: "150 ريال / الليلة",
           tag: "أفضل قيمة لغرفة خاصة",
           desc: "أفضل قيمة لغرفة خاصة في الرياض - مساحة مريحة بسرير مريح وتشطيبات عصرية نظيفة.",
           amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "تنظيف يومي"],
@@ -275,7 +275,7 @@ export const dictionary = {
         },
         {
           name: "غرفة كوين",
-          price: "180 ريال / الليلة",
+          price: "300 ريال / الليلة",
           desc: "غرفة مشرقة ومريحة تتوسطها سرير كوين، بقيمة ممتازة للأزواج أو المسافر الفردي الباحث عن مساحة إضافية.",
           amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "تنظيف يومي"],
           guests: "نزيلان",
@@ -343,9 +343,9 @@ export const dictionary = {
     },
     about: {
       title: "عن نُزل طيبة الكبرى",
-      text: "نُزل طيبة الكبرى هو أفضل نزل من حيث القيمة في الرياض، يقدم إقامة نظيفة ومريحة في قلب المدينة بأسرّة تبدأ من 75 ريال فقط. سواء كنت مسافراً بميزانية محدودة، طالباً، رجل أعمال، حضرت لحدث أو مؤتمر، أو تبحث ببساطة عن سكن اقتصادي في الرياض، نوفر لك أفضل الأسعار وموقعاً مركزياً على طريق الملك فهد وكل المرافق مشمولة - واي فاي مجاني، مسبح، صالة رياضية ومطبخ - بدون رسوم إضافية. أسعار خاصة متاحة للمجموعات والفعاليات.",
+      text: "نُزل طيبة الكبرى هو أفضل نزل من حيث القيمة في الرياض، يقدم إقامة نظيفة ومريحة في قلب المدينة بأسرّة تبدأ من 110 ريال فقط. سواء كنت مسافراً بميزانية محدودة، طالباً، رجل أعمال، حضرت لحدث أو مؤتمر، أو تبحث ببساطة عن سكن اقتصادي في الرياض، نوفر لك أفضل الأسعار وموقعاً مركزياً على طريق الملك فهد وكل المرافق مشمولة - واي فاي مجاني، مسبح، صالة رياضية ومطبخ - بدون رسوم إضافية. أسعار خاصة متاحة للمجموعات والفعاليات.",
       stats: [
-        { value: "75 ريال", label: "الأسرّة تبدأ من" },
+        { value: "110 ريال", label: "الأسرّة تبدأ من" },
         { value: "24/7", label: "خدمة متواصلة" },
         { value: "100%", label: "نظافة وصحة" },
       ],
@@ -366,10 +366,10 @@ export const dictionary = {
       submit: "اطلب حجزاً مجانياً",
       whatsappDirect: "احجز مباشرة عبر واتساب",
       roomOptions: [
-        "سرير في غرفة مشتركة (75 ريال / الليلة)",
-        "غرفة مفردة قياسية (110 ريال / الليلة)",
+        "سرير في غرفة مشتركة (110 ريال / الليلة)",
+        "غرفة مفردة قياسية (150 ريال / الليلة)",
         "غرفة مزدوجة ديلوكس (200 ريال / الليلة)",
-        "غرفة كوين (180 ريال / الليلة)",
+        "غرفة كوين (300 ريال / الليلة)",
         "جناح كينج (180 ريال / الليلة)",
         "جناح عائلي (250 ريال / الليلة)",
       ],

@@ -33,15 +33,15 @@ const tajawal = Tajawal({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://taibah-co.sa"),
-  title: "Tayba Al Kubra Hostel - Best Budget Hostel Riyadh, Beds from 75 SAR | Cheap Accommodation",
+  title: "Tayba Al Kubra Hostel - Best Budget Hostel Riyadh, Beds from 110 SAR | Cheap Accommodation",
   description:
-    "Best budget hostel in central Riyadh — beds from 75 SAR/night, single rooms 110 SAR, double rooms 200 SAR. Free WiFi, pool, gym & kitchen included. Central King Fahd Road location. Book now!",
+    "Best budget hostel in central Riyadh — beds from 110 SAR/night, single rooms 150 SAR, double rooms 200 SAR. Free WiFi, pool, gym & kitchen included. Central King Fahd Road location. Book now!",
   keywords: [
     "Hostel Riyadh",
     "Budget Hostel Riyadh",
     "Cheap Accommodation Riyadh",
     "Affordable Hotel Riyadh",
-    "75 SAR beds",
+    "110 SAR beds",
     "Backpacker Hostel Riyadh",
     "Student Accommodation Riyadh",
     "Cheap Rooms Riyadh",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     "نزل الرياض",
     "سكن رخيص",
     "نزل اقتصادي الرياض",
-    "أسرّة 75 ريال",
+    "أسرّة 110 ريال",
     "سكن طلاب الرياض",
   ],
   alternates: {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Tayba Al Kubra Hostel - Riyadh's Best Value Budget Hostel",
-    description: "Cheapest hostel in Riyadh — comfortable beds from 75 SAR. Free WiFi, pool, gym & kitchen. Perfect for backpackers, travelers, students and workers.",
+    description: "Cheapest hostel in Riyadh — comfortable beds from 110 SAR. Free WiFi, pool, gym & kitchen. Perfect for backpackers, travelers, students and workers.",
     url: "https://taibah-co.sa",
     locale: "en_SA",
     alternateLocale: "ar_SA",
@@ -74,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: "Tayba Al Kubra Hostel",
     alternateName: "نُزل طيبة الكبرى",
     description:
-      "Riyadh's best-value budget hostel — beds from 75 SAR/night, with free WiFi, swimming pool, gym and kitchen included, available 24/7.",
+      "Riyadh's best-value budget hostel — beds from 110 SAR/night, with free WiFi, swimming pool, gym and kitchen included, available 24/7.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Riyadh",
