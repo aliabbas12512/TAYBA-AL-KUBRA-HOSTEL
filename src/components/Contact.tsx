@@ -93,6 +93,11 @@ export default function Contact() {
             {t.hero.ctaWhatsapp}
           </a>
         </Reveal>
+
+        <Reveal delay={340} className="mx-auto mt-10 max-w-xl rounded-2xl border border-gold/15 bg-charcoal-light p-5 text-center">
+          <div className="font-body text-sm font-semibold text-gold">{t.contact.groupsTitle}</div>
+          <p className="mt-1.5 font-body text-xs leading-relaxed text-beige/65 sm:text-sm">{t.contact.groupsText}</p>
+        </Reveal>
       </div>
     </section>
   );

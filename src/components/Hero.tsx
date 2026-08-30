@@ -30,6 +30,15 @@ export default function Hero() {
             {t.hero.eyebrow}
           </span>
 
+          <div
+            className="mt-4 flex animate-fadeUp justify-center"
+            style={{ animationDelay: "60ms", animationFillMode: "backwards" }}
+          >
+            <span className="rounded-full bg-gold-gradient px-5 py-1.5 font-body text-xs font-bold uppercase tracking-wide text-charcoal shadow-lg shadow-gold/20 sm:text-sm">
+              {t.hero.priceBadge}
+            </span>
+          </div>
+
           <h1
             className={`mt-6 animate-fadeUp text-4xl font-bold leading-tight text-white [text-shadow:0_2px_16px_rgba(0,0,0,0.75)] sm:text-5xl md:text-6xl ${
               lang === "ar" ? "font-arDisplay" : "font-display"
