@@ -33,31 +33,36 @@ const tajawal = Tajawal({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://taibah-co.sa"),
-  title: "Tayba Al Kubra Hostel | نُزل طيبة الكبرى — Luxury Hostel in Riyadh",
+  title: "Tayba Al Kubra Hostel - Best Budget Hostel Riyadh, Beds from 75 SAR | Cheap Accommodation",
   description:
-    "Tayba Al Kubra Hostel offers a clean, comfortable and premium accommodation experience in Riyadh — free WiFi, swimming pool, gym, lounge and workspace, available 24/7. نزل فاخر ومريح في الرياض.",
+    "Best budget hostel in central Riyadh — beds from 75 SAR/night, single rooms 110 SAR, double rooms 200 SAR. Free WiFi, pool, gym & kitchen included. Central King Fahd Road location. Book now!",
   keywords: [
-    "Hostel in Riyadh",
-    "Luxury Hostel Riyadh",
-    "Accommodation in Riyadh",
-    "Comfortable Hostel Riyadh",
-    "Affordable Accommodation Riyadh",
-    "نزل في الرياض",
-    "سكن في الرياض",
-    "إقامة في الرياض",
-    "أفضل نزل في الرياض",
-    "سكن مريح في الرياض",
+    "Hostel Riyadh",
+    "Budget Hostel Riyadh",
+    "Cheap Accommodation Riyadh",
+    "Affordable Hotel Riyadh",
+    "75 SAR beds",
+    "Backpacker Hostel Riyadh",
+    "Student Accommodation Riyadh",
+    "Cheap Rooms Riyadh",
+    "Group Accommodation Riyadh",
+    "نزل الرياض",
+    "سكن رخيص",
+    "نزل اقتصادي الرياض",
+    "أسرّة 75 ريال",
+    "سكن طلاب الرياض",
   ],
   alternates: {
     canonical: "https://taibah-co.sa",
   },
   openGraph: {
-    title: "Tayba Al Kubra Hostel | نُزل طيبة الكبرى",
-    description: "Your comfortable, premium stay in Riyadh — available 24/7.",
+    title: "Tayba Al Kubra Hostel - Riyadh's Best Value Budget Hostel",
+    description: "Cheapest hostel in Riyadh — comfortable beds from 75 SAR. Free WiFi, pool, gym & kitchen. Perfect for backpackers, travelers, students and workers.",
     url: "https://taibah-co.sa",
     locale: "en_SA",
     alternateLocale: "ar_SA",
     type: "website",
+    images: [{ url: "/images/pool-1.jpg" }],
   },
   robots: { index: true, follow: true },
 };
@@ -69,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     name: "Tayba Al Kubra Hostel",
     alternateName: "نُزل طيبة الكبرى",
     description:
-      "A clean, comfortable and premium hostel in Riyadh offering free WiFi, swimming pool, gym, lounge and workspace, available 24/7.",
+      "Riyadh's best-value budget hostel — beds from 75 SAR/night, with free WiFi, swimming pool, gym and kitchen included, available 24/7.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Riyadh",
@@ -78,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     telephone: "+966590925707",
     email: "LuxHostel@taibah-co.sa",
     url: "https://taibah-co.sa",
-    priceRange: "$$",
+    priceRange: "$",
   };
 
   return (

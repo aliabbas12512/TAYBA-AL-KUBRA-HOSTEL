@@ -24,9 +24,21 @@ export default function Rooms() {
           {t.rooms.list.map((room, i) => (
             <Reveal key={room.name} delay={i * 80} className="h-full">
               <div className="flex h-full flex-col overflow-hidden rounded-2xl border border-gold/10 bg-charcoal transition-all duration-300 hover:-translate-y-1.5 hover:border-gold/40 hover:shadow-xl hover:shadow-gold/5">
-                <PlaceholderImage id={room.image} label={room.name} className="aspect-[4/3] w-full" />
+                <div className="relative">
+                  <PlaceholderImage id={room.image} label={room.name} className="aspect-[4/3] w-full" />
+                  {"tag" in room && room.tag && (
+                    <span className="absolute end-3 top-3 rounded-full bg-gold-gradient px-2.5 py-1 font-body text-[10px] font-bold text-charcoal shadow-md">
+                      {room.tag}
+                    </span>
+                  )}
+                </div>
                 <div className="flex flex-1 flex-col p-5">
-                  <h3 className="font-display text-lg font-semibold text-gold">{room.name}</h3>
+                  <div className="flex items-baseline justify-between gap-2">
+                    <h3 className="font-display text-lg font-semibold text-gold">{room.name}</h3>
+                    {"price" in room && room.price && (
+                      <span className="shrink-0 font-body text-xs font-bold text-beige">{room.price}</span>
+                    )}
+                  </div>
                   <p className="mt-2 flex-1 font-body text-xs leading-relaxed text-beige/65">{room.desc}</p>
 
                   <div className="mt-3 flex items-center gap-1.5 font-body text-xs text-beige/50">
