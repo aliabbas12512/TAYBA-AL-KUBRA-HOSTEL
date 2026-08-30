@@ -78,7 +78,7 @@ export const dictionary = {
         },
         {
           name: "Queen Room",
-          price: "Contact for Price",
+          price: "180 SAR/night",
           desc: "A bright, comfortable room centered around a queen bed — great value for couples or solo travelers wanting extra space.",
           amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Daily Housekeeping"],
           guests: "2 Guests",
@@ -86,7 +86,7 @@ export const dictionary = {
         },
         {
           name: "King Suite",
-          price: "Contact for Price",
+          price: "180 SAR/night",
           desc: "Our most spacious private room, built around a king bed — premium comfort at a budget-friendly price.",
           amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Work Desk"],
           guests: "2 Guests",
@@ -94,7 +94,7 @@ export const dictionary = {
         },
         {
           name: "Family Suite",
-          price: "Contact for Price",
+          price: "250 SAR/night",
           desc: "Perfect for families and small groups — private, comfortable and affordable, with shared kitchen and lounge access.",
           amenities: ["Free WiFi", "Air Conditioning", "Private Bathroom", "Lounge Access"],
           guests: "3-4 Guests",
@@ -172,9 +172,9 @@ export const dictionary = {
         "Shared Dormitory Bed (75 SAR/night)",
         "Standard Single Room (110 SAR/night)",
         "Deluxe Double Room (200 SAR/night)",
-        "Queen Room",
-        "King Suite",
-        "Family Suite",
+        "Queen Room (180 SAR/night)",
+        "King Suite (180 SAR/night)",
+        "Family Suite (250 SAR/night)",
       ],
     },
     contact: {
@@ -275,7 +275,7 @@ export const dictionary = {
         },
         {
           name: "غرفة كوين",
-          price: "تواصل معنا للسعر",
+          price: "180 ريال / الليلة",
           desc: "غرفة مشرقة ومريحة تتوسطها سرير كوين، بقيمة ممتازة للأزواج أو المسافر الفردي الباحث عن مساحة إضافية.",
           amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "تنظيف يومي"],
           guests: "نزيلان",
@@ -283,7 +283,7 @@ export const dictionary = {
         },
         {
           name: "جناح كينج",
-          price: "تواصل معنا للسعر",
+          price: "180 ريال / الليلة",
           desc: "أوسع غرفنا الخاصة، بسرير كينج - راحة مميزة بسعر اقتصادي.",
           amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "مكتب عمل"],
           guests: "نزيلان",
@@ -291,7 +291,7 @@ export const dictionary = {
         },
         {
           name: "جناح عائلي",
-          price: "تواصل معنا للسعر",
+          price: "250 ريال / الليلة",
           desc: "مثالي للعائلات والمجموعات الصغيرة - خاص ومريح واقتصادي، مع دخول للمطبخ المشترك والصالة.",
           amenities: ["واي فاي مجاني", "تكييف هواء", "حمام خاص", "دخول الصالة"],
           guests: "3-4 نزلاء",
@@ -369,9 +369,9 @@ export const dictionary = {
         "سرير في غرفة مشتركة (75 ريال / الليلة)",
         "غرفة مفردة قياسية (110 ريال / الليلة)",
         "غرفة مزدوجة ديلوكس (200 ريال / الليلة)",
-        "غرفة كوين",
-        "جناح كينج",
-        "جناح عائلي",
+        "غرفة كوين (180 ريال / الليلة)",
+        "جناح كينج (180 ريال / الليلة)",
+        "جناح عائلي (250 ريال / الليلة)",
       ],
     },
     contact: {
